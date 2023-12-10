@@ -36,11 +36,11 @@ body {
 
 /* Login Card Logo */
 .login-card-logo {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .login-card-logo img {
-    width: 60px;
+    width: 180px;
 }
 /* ---------- */
 
@@ -63,6 +63,7 @@ body {
 
 /* Login Card Header */
 .login-card-header {
+    margin-top: 0rem;
     margin-bottom: 2rem;
 }
 

@@ -53,7 +53,7 @@
     <script src="script.js" defer></script>
 
     <!-- Your name here -->
-    <title>DiabSynth | Home</title>
+    <title>DiabSynth | Contact</title>
   </head>
 
   <body>
@@ -79,26 +79,60 @@
           </li>
         </ol>
       </nav>
-
-      <div class="container">
-        <div class="header-textbox">
-          <!-- Replace with your name and job title -->
-          <h1 class="h1">
-            <b>DiabSynth</b></h1>
-           <h3 class="h3"> Revolutionizing Diabetes Care
-          </h3> 
-
-          <!-- Add a small introductory paragraph about yourself -->
-          <p class="header-text">
-            Empowering you with cutting-edge machine learning, DiabSynth redefines diabetes care. Gain insights tailored to your unique health profile, making proactive management effortless and personalized.
-          </p>
-
-          <div class="header-btns">
-            <a href="#contact" class="btn btn-secondary">Contact Team</a>
+      
+    <main class="main">
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Accepting collaborations
+              </strong>
+              <p class="contact-text">
+                If you are passionate about advancing healthcare technology and contributing to the mission of DiabSynth, 
+                we welcome your expertise and collaboration. Join our community of developers, and healthcare 
+                enthusiasts working together to revolutionize diabetes care.
+              </p>
+              <p class="contact-text">
+                Please allow us some time to respond, as we are committed to providing thoughtful and thorough replies to all inquiries
+                <br><br>Regrads, <br>DiabSynth Team
+              </p>
+              <!-- Replace src with your signatures and name -->
+              <img
+                src="assets/images/circle_diab.png"
+                alt="DiabSynthteam"
+                class="signatures"
+                loading="lazy"
+              />
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How are you willing to contribute??</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
           </div>
         </div>
-      </div>
-    </header>
+      </section>
+    </main>
 
     <footer class="footer">
       <div class="container">

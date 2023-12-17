@@ -401,8 +401,7 @@ main {
 
 .menu-btn {
   display: block;
-  margin-inline-start: auto;
-  border: 1px solid var(--border-dark);
+  border: 1px solid #fff;
   inline-size: 132px;
   padding-block: var(--gutter-nano);
   border-radius: var(--gutter-large);
@@ -481,8 +480,8 @@ main {
 }
 
 body.dark .header {
-  background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/hero-bg.webp");
+  background-image: linear-gradient(#0000009d, #000000a3),
+    url("assets/images/home-img.png");
 }
 
 body.light .header {
@@ -527,7 +526,10 @@ body.light .header {
     text-align: center;
     padding-inline: 0.6rem;
   }
-
+  body.dark .header {
+    background-image: linear-gradient(#0000009d, #000000a3),
+      url("assets/images/home-img-short.png");
+  }
   .header-btns {
     flex-direction: column;
     width: 80%;

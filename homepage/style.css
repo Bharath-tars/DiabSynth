@@ -402,6 +402,7 @@ main {
 .menu-btn {
   display: block;
   border: 1px solid #fff;
+  margin-inline-start: auto;
   inline-size: 132px;
   padding-block: var(--gutter-nano);
   border-radius: var(--gutter-large);
@@ -480,15 +481,9 @@ main {
 }
 
 body.dark .header {
-<<<<<<< HEAD
   background-image: linear-gradient(#0000009d, #000000a3),
     url("assets/images/home-img.png");
-=======
-  background-image: linear-gradient(#0000008b, #000000e6),
-    url("assets/images/diabetes\ \(1\).png");
->>>>>>> af3d369e0c42480729ff686c90437e1e52fefaec
 }
-
 body.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
     url("assets/images/hero-bg-light.webp");
@@ -617,7 +612,7 @@ body.light .logo {
 /* --------------------------------- */
 
 .work-boxes {
-  padding-block-start: var(--gutter-x-large);
+  padding-block-start: 3rem;
 }
 
 .work-box {
@@ -667,18 +662,20 @@ body.light .work-img {
 }
 
 .work-textbox {
-  max-inline-size: 445px;
+  max-inline-size: 600px;
 }
-
+.work h2 {
+  margin-block-start: 130px;
+}
 @media (max-width: 885px) {
   .work h2 {
-    margin-block-start: 45px;
+    margin-block-start: 150px;
   }
 }
 
 @media (max-width: 485px) {
   .work h2 {
-    margin-block-start: 0;
+    margin-block-start: 120px;
   }
 }
 

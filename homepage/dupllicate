@@ -718,3 +718,36 @@
     </footer>
   </body>
 </html>
+
+
+<article class="article-box featured-article">
+  <div class="article-textbox">
+    <div>
+      <h3 class="h3">
+        Method and kit for diabetes risk prediction and treatment evaluation
+      </h3>
+      <p class="article-text">
+        The present invention relates to an evaluation method and a detection kit for predicting a risk of
+         developing diabetes or an effect of treating diabetes. The method for predicting the risk of diabetes
+          and evaluating treatment mainly comprises the steps of detecting the concentration of a biomarker in
+           an individual diagnosis marker composition, 
+      </p>
+    </div>
+    <div class="article-info">
+      <a href="https://patents.google.com/patent/CN106979982B/en?q=(diabetes+prediction)&oq=diabetes+prediction+" class="link" target="_blank" rel="noopener"
+        >Continue reading</a
+      >
+      <span class="reaction-count">
+        <img src="./assets/images/heart-outline.svg" alt="heart" />
+        416
+      </span>
+    </div>
+  </div>
+  <picture class="article-illustration">
+    <img
+      src="assets/images/blogs/machjine2.png"
+      alt="Diabetes-related biomakers"
+      loading="lazy"
+    />
+  </picture>
+</article>

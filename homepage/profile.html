@@ -53,7 +53,7 @@
     <script src="script.js" defer></script>
 
     <!-- Your name here -->
-    <title>DiabSynth | Home</title>
+    <title>DiabSynth | Profile</title>
   </head>
 
   <body>
@@ -63,7 +63,6 @@
       document.body.classList.add(theme);
     </script>
 
-    <header class="header">
 
       <div class="menu-btn-container">
         <div class="container">
@@ -91,68 +90,100 @@
           </li>
         </ol>
       </nav>
-
-      <div class="container">
-        <div class="header-textbox">
-          <!-- Replace with your name and job title -->
-          <h1 class="h1">
-            <b>DiabSynth</b></h1>
-           <h3 class="h3"> Revolutionizing Diabetes Care
-          </h3> 
-
-          <!-- Add a small introductory paragraph about yourself -->
-          <p class="header-text">
-            Empowering you with cutting-edge machine learning, DiabSynth redefines diabetes care. Gain insights tailored to your unique health profile, making proactive management effortless and personalized.
-          </p>
-
-          <div class="header-btns">
-            <a href="contact.html" class="btn btn-secondary">Contact Team</a>
+    <main class="main">
+        <section class="work">
+            <div class="container">
+              <h2 class="h2" id="work"><u>User PROFILE</u></h2>
+                <div class="article-boxes">
+                  <article class="article-box featured-article">
+                    <div class="article-textbox">
+                      <div>
+                        <h3 class="h3">
+                          Name: {{ name }}
+                        </h3>
+                        <h3 class="h3">
+                          Email: {{ mail }}
+                        </h3>
+                        <h3 class="h3">
+                          No of Prompts: {{ prompts }}
+                        </h3>
+                        <h3 class="h3">
+                          Phone-Number: {{ pno }}
+                        </h3>
+                        <h3 class="h3">
+                          Location: {{ location }}
+                        </h3>
+                        <h3 class="h3">
+                          <a href="D:\Hitler\Btech\sem5\MINIPROJECT\Web\login\index.html">Log-out</a>
+                        </h3>
+                      </div>
+                      <div class="article-info">
+                        <a href="https://Linkedin.com/in/bharath-sudarsanam" class="link" target="_blank" rel="noopener"
+                          >Social Link</a
+                        >
+                      </div>
+                    </div>
+                    <picture class="article-illustration">
+                      <img
+                        src="assets/images/circle_diab.png"
+                        alt="Diabetes-related biomakers"
+                        loading="lazy"
+                      />
+                    </picture>
+                  </article>
+                </div>
+                <h2 class="h2" id="work"><u>History</u></h2>
+                <div class="article-boxes">
+                  <article class="article-box featured-article">
+                    <div class="article-textbox">
+                    </div>
+                  </article>
+                </div>
+            </div>
+          </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <!-- Update href and src attributes -->
+            <nav>
+              <ol class="footer-links">
+                <li class="footer-link">
+                  <a title="GitHub" href="https://github.com/bharath-tars" target="_blank" rel="noopener"
+                    ><img
+                      loading="lazy"
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                  /></a>
+                </li>
+                <li class="footer-link">
+                  <a title="Linkedin" href="https://www.linkedin.com/in/bharath-sudarsanam" target="_blank" rel="noopener"
+                    ><img
+                      loading="lazy"
+                      src="assets/images/social-links/linkedin.svg"
+                      alt="Linkedin"
+                  /></a>
+                </li>
+                <li class="footer-link">
+                  <a title="Linktree" href="https://twitter.com/Bharathtars1991" target="_blank" rel="noopener"
+                    ><img
+                      loading="lazy"
+                      src="assets/images/social-links/twitter.svg"
+                      alt="Twitter"
+                  /></a>
+                </li>
+              </ol>
+            </nav>
+            <p class="footer-text">
+              &copy; <span>2023</span> - Webpage Developed and Designed by <a target="_blank" rel="noopener" href="https://github.com/bharath-tars">Bharath-tars.</a>
+            </p>
+            <label class="theme-switch" for="theme-switch">
+              <span>Dark Theme</span>
+              <input type="checkbox" id="theme-switch" role="switch"/>
+            </label>
           </div>
         </div>
-      </div>
-    </header>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <!-- Update href and src attributes -->
-          <nav>
-            <ol class="footer-links">
-              <li class="footer-link">
-                <a title="GitHub" href="https://github.com/bharath-tars" target="_blank" rel="noopener"
-                  ><img
-                    loading="lazy"
-                    src="assets/images/social-links/github.svg"
-                    alt="GitHub"
-                /></a>
-              </li>
-              <li class="footer-link">
-                <a title="Linkedin" href="https://www.linkedin.com/in/bharath-sudarsanam" target="_blank" rel="noopener"
-                  ><img
-                    loading="lazy"
-                    src="assets/images/social-links/linkedin.svg"
-                    alt="Linkedin"
-                /></a>
-              </li>
-              <li class="footer-link">
-                <a title="Linktree" href="https://twitter.com/Bharathtars1991" target="_blank" rel="noopener"
-                  ><img
-                    loading="lazy"
-                    src="assets/images/social-links/twitter.svg"
-                    alt="Twitter"
-                /></a>
-              </li>
-            </ol>
-          </nav>
-          <p class="footer-text">
-            &copy; <span>2023</span> - Webpage Developed and Designed by <a target="_blank" rel="noopener" href="https://github.com/bharath-tars">Bharath-tars.</a>
-          </p>
-          <label class="theme-switch" for="theme-switch">
-            <span>Dark Theme</span>
-            <input type="checkbox" id="theme-switch" role="switch"/>
-          </label>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </main>
   </body>
 </html>
+
